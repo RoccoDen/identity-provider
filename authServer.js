@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { Client } = require('./db'); // Importa il modello Client dal file db.js
+//const { Client } = require('./db'); // Importa il modello Client dal file db.js
 const jwt = require('jsonwebtoken');
 
 const app = express();
